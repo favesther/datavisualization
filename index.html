@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>D3 Page Template</title>
+<script type="text/javascript" src="d3.js"></script>
+<style type="text/css">
+div.bar{
+  display:inline-block;
+  width:20px;
+  height:75px;
+  background-color:teal;
+}
+</style>
+</head>
+<body data-gr-c-s-loaded="true">
+<script type="text/javascript">
+var dataset = [5,10,15,20,25];
+d3.select("body").selectAll("p")
+    .data(dataset)
+    .enter()
+    .append("p")
+    .style("color",function(d){
+      if (d<20) {
+        return "orange";
+      } else {
+        return "purple";
+      }
+    })
+    .text(function(d){return d;});
+d3.select("body").selectAll("div")
+    .data(dataset) // 实际上是有五个一模一样的rectangle
+    .enter()
+    .append("div")
+    .attr("class","bar");
+// Your beautiful D3 code will go here
+</script>
+
+<div style="display:inline-block;
+            width:20px;
+            height:80px;
+            background-color:teal;"></div>
+<div class="bar"></div> <!--服从css里学的style，所以就直接画一个-->
+
+</html>

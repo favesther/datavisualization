@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>D3 Page Template</title>
+<script type="text/javascript" src="d3.js"></script>
+</head>
+<body data-gr-c-s-loaded="true">
+<script type="text/javascript">
+var rowConverter = function(d){
+  return {
+    Food:d.Food, //No conversion
+    Deliciousness:parseFloat(d.Deliciousness)
+  };
+  d3.csv("food.csv", function(data){
+    if (error) {
+      console.log(error);
+    } else {
+    console.log(data);
+    generateVis();
+    hideLoadingMsg();
+    }
+
+  })
+}// Your beautiful D3 code will go here
+</script>
+</body>
+</html>
