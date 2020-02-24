@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Coffee Seeker</title>
+        <script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+        <script src="https://unpkg.com/d3-simple-slider"></script>
+        <script src="https://d3js.org/d3-format.v1.min.js"></script>
+        <script src='d3-simple-slider.js'></script>
+        <link href="main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Coffee Seeker</h1>
+        <p>Instructions: Filter your preferences first. Click on the country on the map where your target supplier might be.</p>
+        <div class="box">
+        <div class="sliders" id="slider-acidity">Acidity</div>
+        <div class="sliders" id="slider-aroma">Aroma</div>
+        <div class="sliders" id="slider-aftertaste">Aftertaste</div>
+        <div class="sliders" id="slider-body">Body</div>
+        <div class="sliders" id="slider-flavor">Flavor</div>
+        </div>
+        <!-- <div class="row align-items-center">
+            <div class="col-sm-2"><p id="value-range"></p></div>
+            <div class="col-sm"><div id="slider-range"></div></div>
+        </div>
+        <div id="tooltip-map" class="hidden"></div> -->
+        <div id="tooltip" class="hidden">
+            <p><strong>Profile</strong></p>
+            <p><span id="value"></span></p>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
