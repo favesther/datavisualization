@@ -13,9 +13,9 @@ Julie Zhu: slider, CSS, connect the filter to map, map-bar chart scroll, write u
 Xinyi Yang: Manually cleaned the excel data, drew the  bar chart, connect map data to the bar chart
 
 # Time spent
-Fengwei Han: approximately 15 hrs
-Julie Zhu: approximately 15 hrs
-Xinyi Yang: approximately 15 hrs
+Fengwei Han: approximately 15 hrs  
+Julie Zhu: approximately 15 hrs  
+Xinyi Yang: approximately 15 hrs  
 
 # Challenges
 Data cleaning is time-consuming. Data is in inconsistent formats. There are many null values that exist in different columns and rows. We were trying to get rid of the rows with null values without losing too much data. The most difficult problem of this assignment is connecting the pieces together. Everyone has different understandings of the information infrastructure.  When developing our own pieces at first, it is hard for us to be clear about what kind of data structure would be appropriate and effective when applying it to the whole visualization. Thus, it takes a long time for us to understand each other’s lines of code and to connect the pieces based on our interpretations. Moreover, debugging takes a lot of time. There are many issues related to javascript and d3, for example, data are all read and stored as strings,  the scope of the variables are different, etc. We spent quite a while identifying the minor errors in the code. 
