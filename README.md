@@ -1,4 +1,9 @@
 # datavisualization
+* Coffee Seeker</br>
+  Team Members: </br>
+  Fengwei Han, Xinyi Yang, Julie Yuyue Zhu</br>
+  Abstract:</br>
+  First trying of D3 coding. Apply sliders to geomap to filter qualities of coffee. In order to help coffee buyers to locate possible coffee bean source. Use bar chart to help coffee buyers to find the exact approapriate source of coffee beans.
 * Group 5 A4</br>
   Team Members: </br>
   Fengwei Han, Xinyi Yang, Julie Yuyue Zhu</br>
