@@ -1,4 +1,4 @@
-# datavisualization
+# Interactive Information Visualization Design
 * Coffee Seeker</br>
   Team Members: </br>
   Fengwei Han, Xinyi Yang, Julie Yuyue Zhu</br>
